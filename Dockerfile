@@ -12,4 +12,4 @@ RUN apk add openssh-client
 RUN chmod 600 /root/.ssh/id_ed25519
 
 # Set up known hosts (optional)
-COPY known_hosts /root/.ssh/known_hosts
+#COPY known_hosts /root/.ssh/known_hosts
