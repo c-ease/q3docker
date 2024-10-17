@@ -9,7 +9,7 @@ RUN apk add openssh-client
 #COPY your_ssh_private_key.pem /root/.ssh/id_rsa
 
 # Change permissions for the private key
-RUN chmod 600 /root/.ssh/key
+#RUN chmod 600 /root/.ssh/key
 
 # Set up known hosts (optional)
 #COPY known_hosts /root/.ssh/known_hosts
